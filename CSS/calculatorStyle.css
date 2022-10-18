@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 229, 218);
+    box-sizing: border-box;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.flex-container .buttonDiv{
+    background-color:whitesmoke;
+    width: 80px;
+    height: 80px ;
+    font-size: 30px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    padding: auto;
+}
+
+.buttonValue{
+    margin: 0;
+    margin: 20px 0px;
+}
+
+.resultInput{
+    display: flex;
+    align-content: center;
+    margin-left: 570px;
+    margin-top: 70px;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+}

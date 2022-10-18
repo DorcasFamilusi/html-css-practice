@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/contactStyle.css" />
+    <link rel="stylesheet" href="./CSS/aboutMestyle.css">
+    <title>Contact page</title>
+  </head>
+  <body>
+    <nav class="nav_head">
+      <p><a href="./About me.html"> About me</a></p>
+      <p><a href="./contact page.html">Contact</a></p>
+      <p><a href="./Register page.html">Register</a></p>
+      <p><a href="./Login.html">Login</a></p>
+      <p><a href="./Calculator.html">Calculator</a></p>
+    </nav>
+
+
+    <section id="Contact_page">
+
+      <span class="model">
+        <img src="./images/model.jpg" alt="model">
+      </span>
+
+
+      <form action="/signup" method="post">
+
+        <h1>Contact Us</h1>
+
+        <div class="sec1">
+          <p>
+            <label for="Name">Full Name</label><br />
+            <label>
+              <input type="text" name="name" class="name" id="name" required />
+            </label>
+          </p>
+          <p>
+            <label for="email">Email</label><br />
+            <label>
+                 <input type="email" name="email" class="email" id="email" required />
+            </label>
+          </p>
+          <p>
+            <label for="message">Message</label><br />
+            <label>
+              <input name="message" id="message"  required ></input>
+            </label>
+          </p>
+          
+          <p>
+            <label for="piority">Piority</label><br />
+            <select name="piority" required>
+              <option value="citical">Critical</option>
+              <option value="high">High</option>
+              <option value="mid">Mid</option>
+              <option value="low">Low</option>
+            </select>
+          </p>
+          <button>Contact Us</button>
+        </div>
+
+        <div class="sec2">
+
+          <div class="mail">
+               <p>Contact </p>
+              <p class="mail1"> hi@contact.com </p>
+          </div>
+        
+          <div class="location">
+            <p>Location</p>
+            <p class="location1">Lagos, Nigeria</p>
+          </div>
+          
+          <div class="social">
+              <div>
+                  <img src="./images/github.png" alt="">
+                  <img src="./images/twittericon.png" alt="">
+                  <img src="./images/instagram icon.png" alt="">
+              </div>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
